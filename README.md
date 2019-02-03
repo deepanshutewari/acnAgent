@@ -1,6 +1,5 @@
-# acnAgent
-Travel Agent web app
-===================================
+# acnAgent : Travel Agent web app
+
 Executions steps
 ===================================
 1. Start database on your system.
@@ -10,14 +9,13 @@ Executions steps
 5. Run jar using "nohup java -jar travel-backend-0.0.1-SNAPSHOT.jar >> logs.txt &" command.
 6. Web app will be accessable at http://<hostname>:8080 port
 
-
 USE CASE
-
+==
 The increase of machine-driven analytics and the gaining popularity of self-service behaviour, the agency business model is being increasingly threatened. The current and future generation are digital-savvy and comfortable performing research and complex transactions online by themselves, bypassing the agencies and diminishing their revenue. This is a prototype of a online travel agent to solve this problem which can integrate with insurance agency, banks or airlines in future.
 
 
 Key Planned Features
-
+==
 1. The code is divided into 2 parts, front end code written in angular JS CLI 7 and back end code exposing services of travel agency written using java sping boot and hibernate.
 2. Social Login(Facebook): Integrated as developer app
 3. Register and login
@@ -27,7 +25,7 @@ Key Planned Features
 
 
 Future Scopes
-
+==
 1. Email notifications for upcomimg booked plans and upcoming deals.
 2. User feeds to be sent to backend service to be saved for analytical purposes.
 3. Chat bot.
